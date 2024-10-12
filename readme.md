@@ -17,7 +17,7 @@ A Python-based graphical simulation tool that visualizes uranium fission decay. 
 
 Copy code:
 ```
-git clone <repository-url>
+git clone https://github.com/Battlearmour2000/Uranium-Fission-Decay-Simulator.git
 cd uranium-fission-simulator
 ```
 2. Set up a virtual environment to isolate dependencies:
@@ -31,7 +31,7 @@ source env/bin/activate   # On Windows, use `env\Scripts\activate`
 
 Copy code:
 ```
-python fission_simulator.py
+python main.py
 ```
 ## Note
 The simulator uses the standard tkinter library, which comes pre-installed with Python. No additional packages are required.
